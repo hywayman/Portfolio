@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+.buttonHolder {
+    margin: 15px;
+    padding: 10px;
+}
+
+.buttonHolder button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Cards, .noCard{
+  margin: 10px;
+  max-width: 140px;
+  /* max-height: 200px; */
+  width: auto; /* Ensure aspect ratio is maintained */
+  height: auto; /* Ensure aspect ratio is maintained */
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+img {
+  margin: 5px;
+  max-width: 150px;
+}
+
+.card-spot {
+  position: relative;
+  width: 180px;
+  height: 270px;
+  border: 2px solid black;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-spot img {
+  max-width: 90%;
+  max-height: 95%;
+  width: auto; /* Ensure aspect ratio is maintained */
+  height: auto; /* Ensure aspect ratio is maintained */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  margin-bottom: 10px; /* Add margin between the rows */
+}
+
+.deck-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-image-container {
+  margin-top: 20px;
+}
+
+.noCard{
+  width: 160px;
+  height: 160px;
+
+}

@@ -1,0 +1,12 @@
+.controlHolder {
+    margin:5px;
+    padding:5px;
+}
+
+.controlHolder select, input{
+    margin-left: 10px;
+}
+
+.title{
+    font-weight:bold;
+}
